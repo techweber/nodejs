@@ -1,13 +1,13 @@
 const Nexmo = require('nexmo');
 
 const nexmo = new Nexmo({
-	apiKey: '87b4224a',
-	apiSecret: '76144a62',
+	apiKey: 'xxxxxxxx',
+	apiSecret: 'xxxxxxxx',
 });
 
 const from = "Vonage APIs";
-const to = "923218840145";
-const text = "G Nauman sb, kya haal hai sir. Usman oladoc";
+const to = "xxxxxxxx";
+const text = "Hi from Node JS";
 
 var result = nexmo.message.sendSms(from, to, text); 
 
